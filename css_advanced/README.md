@@ -1,1 +1,1 @@
-This projects is to build Smile School website. To build this website I use Advanced HTML and CSS and style of the page.
+This project is to build the Smile School website. To build this website, I used advanced HTML, CSS, and the style of the page. 
