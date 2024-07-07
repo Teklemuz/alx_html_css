@@ -1,1 +1,291 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: rgb(red, green, blue);
+    line-height: 1.5;
+}
+
+header {
+    padding: 20px;
+    background: #222;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+main section {
+    padding: 90px 30px;
+    background: url('image/Object.png');
+    color: #fff;
+}
+
+main {
+    text-align: center;
+}
+
+main section {
+    padding: 90px 30px;
+    color: #fff;
+}
+
+main section div:first-child {
+    margin-bottom: 20px;
+}
+
+main section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+main section span {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+main section button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main section h2 {
+    margin: 60px 0 30px;
+    font-size: 32px;
+    color: #f0a;
+}
+
+main section div:last-child {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section div:last-child div {
+    margin: 20px;
+    text-align: center;
+}
+
+main section div:last-child img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+main section div:last-child h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+main section div:last-child p {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.testimonial {
+    background-color: #f2f2f2;
+    padding: 60px 30px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonial img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial blockquote {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.testimonial p {
+    font-size: 1em;
+    color: #fff;
+}
+
+.membership {
+    padding: 90px 30px;
+    background-color: #f1f1;
+    width: 100%;
+    text-align: center
+}
+
+.membership h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #f1f1;
+    padding: 60px;
+    display: flex;
+}
+
+.membership div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    margin: 30px;
+    color: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.membership div img {
+    border-radius: 10px;
+}
+
+.membership div h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.membership div p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+.membership button{
+    background-color: #f1f1;
+    padding: 16px 32px;
+    color: #f0a;
+    border-radius: 60px;
+    text-transform: uppercase;
+}
+
+.faq {
+    padding: 60px 20px;
+    height: 400px;
+    font-size: 40px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.faq h2 {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+.faq h3{
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left
+}
+
+.faq div h3 {
+    font-size: 2.5em;
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #071a;
+    text-align: center;
+    align-items: center;
+    width: 1400px;
+    padding: 90px 0 50px 0;
+    margin: 0 auto;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+}
+
+footer .logo {
+    height: 40px;
+    width: 48px;
+    display: flex;
+}
+
+.fa-brands {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-right: 30px;
+}
+
+.fa-brands {
+    display: flex;
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.fa-brands {
+    display: flex;
+    margin-bottom: 75px;
+    flex-direction: row;
+    width: 150px;
+}
+
+footer .smileschool {
+    display: inline-block;
+    margin-top: 120px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
