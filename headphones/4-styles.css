@@ -1,5 +1,5 @@
 /*========================================================== Reset CSS Styling ===================================================================== */
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -79,7 +79,6 @@
 .holberton_school-icon-ic_hearing:before {
     content: "\e909";
 }
-
 /*==================================================================== General styles ================================================================ */
 body {
     font-family: var(--font-family);
@@ -155,7 +154,6 @@ body {
     margin: 5px 0;
     transition: 0.4s;
 }
-
 /*====================================================================== Hero section styles =================================================================*/
 .hero {
     background-image: url('images/headphones_hero_1.jpg');
@@ -207,7 +205,6 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
-
 /* ===================================================================What we do section styles =========================================================*/
 .what-we-do {
     text-align: center;
@@ -250,7 +247,6 @@ body {
 .service-item p {
     font-size: 14px;
 }
-
 /*=========================================================== Our results section styles ================================================================ */
 .our-results {
     background-image: url('images/headphones_hero_2.jpg');
@@ -295,7 +291,6 @@ body {
 .description {
     font-size: 14px;
 }
-
 /* ================================================================ Contact us section styles =========================================================== */
 .contact-us {
     text-align: center;
@@ -327,7 +322,6 @@ body {
 .contact-form .cta-button {
     margin-top: 20px;
 }
-
 /*====================================================== Footer styles ================================================================================*/
 .footer {
     background-color: #071629;
@@ -364,7 +358,6 @@ body {
     font-size: 14px;
     opacity: 0.5;
 }
-
 /*========================================================================= Responsive design ==================================================================== */
 @media screen and (max-width: 480px) {
     .header-container {
