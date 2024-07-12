@@ -1,4 +1,4 @@
-Headphones Company
+Headphone Company
 
 The objective of this project is to implement a fully functional webpage from scratch without any library that looks the same as the given figma design by NIcolas Philippot, UI/UX designer. To create this webpage, I will use HTML/CSS/Responsive design.
 
